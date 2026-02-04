@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(200deg, black, #f5d8adc4, black);
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: linear-gradient(160deg, rgba(211, 211, 4, 0.562), #f5d8adc4, rgba(211, 211, 4, 0.562));
+  border: 0 !important;
+  font-weight: bold;
+  animation: zoomIn 1.4s ease;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+button {
+  animation: jello 1.6s ease;
+}
+
+button:hover {
+  animation: pulse 0.6s ease;
+}
+
+.next {
+  background: linear-gradient(40deg, rgba(211, 211, 4, 0.74), rgba(235, 148, 18, 0.63), rgba(211, 211, 4, 0.74));
+  border: 0 !important;
+  font-weight: bold;
+  color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.back {
+  background: linear-gradient(40deg, #f5d8adc4, black, #f5d8adc4);
+  border: 0 !important;
+  font-weight: bold;
+  color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+  font-weight: bold !important;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  animation: bounce 1.6s ease;
+}
+
+input[type="radio"]:hover {
+  cursor: pointer !important;
+}
+
+input[type="radio"]:checked {
+  accent-color: black;
+}
+
+.form-control:focus {
+  border: 2px solid black !important;
+  box-shadow: none !important;
+}
